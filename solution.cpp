@@ -5,7 +5,7 @@ public:
         for(int i = 0; i < nums.size(); i++){
             int complement = target - nums[i];
             if(hash.count(complement)){
-                return {hash[complement], i};
+                return {hash[com plement], i};
             }
             hash[nums[i]] = i;
         }
