@@ -10,5 +10,5 @@ public:
             hash[nums[i]] = i;
         }
         return {};
-    }
+    } 
 };
